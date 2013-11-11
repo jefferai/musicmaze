@@ -3,6 +3,8 @@ MusicMaze
 A maze generator that clues you in to the right path via the track you
 select. You get to the end when the song gets to the end.
 
+Created from scratch for Music Hack Day Boston 2013.
+
 Features
 --------------------
 * Click anywhere on the maze to set a new endpoint
