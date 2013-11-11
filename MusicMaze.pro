@@ -16,3 +16,6 @@ OTHER_FILES += \
     qml/MusicMaze/main.qml \
     qml/MusicMaze/TileRect.qml
 
+RESOURCES += \
+    resources.qrc
+

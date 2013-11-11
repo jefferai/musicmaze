@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     qmlRegisterType< TrackHandler >("MusicMaze", 1, 0, "TrackHandler");
 
     view->rootContext()->setContextProperty("mainWindow", view);
-    view->setSource(QUrl::fromLocalFile("/Users/jemitche/src/MusicMaze/MusicMaze/qml/MusicMaze/main.qml"));
+    view->setSource(QUrl("qrc:/resources/qml/MusicMaze/main.qml"));
     view->show();
 
     return app.exec();

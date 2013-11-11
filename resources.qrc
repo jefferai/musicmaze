@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>qml/MusicMaze/main.qml</file>
+        <file>qml/MusicMaze/TileRect.qml</file>
+    </qresource>
+</RCC>
