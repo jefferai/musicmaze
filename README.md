@@ -15,7 +15,8 @@ Features
 Building
 -------------------
 * Qt 5.1 or higher (http://qt-project.org/downloads)
-* SoX (on OSX: `brew install sox`)
+* SoX (on OSX: `brew install sox`). If sox is not in /usr/local/bin you
+  will need to update the path in TrackHandler.cpp.
 
 Just make it with qmake/make and run the resulting app bundle/binary
 
